@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "jest"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lukman155/jest-testing.git"
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/lukman155/jest-testing/issues"
   },
-  "homepage": "https://github.com/lukman155/jest-testing#readme"
+  "homepage": "https://github.com/lukman155/jest-testing#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
